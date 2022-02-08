@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    color: #364C63;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #F3B340 !important;
+  }
+    
+  #logo {
+    margin-left: 2rem;
+  }
+    
+  #cart-symbol {
+    margin-right: 2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  body {
+    background-color: #F4F3EF;
+  }
+  
+  
+  h1 {
+    color: #364C63;
+    background-color: #F3B340;
+    padding: 1rem;
+    width: 100%;
+    overflow: auto;
+    font-size: 2rem;
+  }
+  
+  #cardLayout { 
+    margin-top: 10rem;
+  }  
+
+  .navbar-brand {
+    color: #364C63;
+    font-size: 1.8rem; 
+  }
+ 

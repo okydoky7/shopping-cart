@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Shopping Cart</title>
+  </head>
+
+  <Header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg fixed-top menu-bar">
+        <img src="./img/logo.png" id="logo" width="100px" height="100px" alt="logo"/>
+        <h1 class="text-center">Dog Toys Online</h1>
+        <a class="navbar-brand main-nav" href="#table">Cart</a>
+        <img src="./img/cart.png" id="cart-symbol" width="60px">
+      </nav>
+    </div>
+  </Header>
+
+  <body>
+    <Section class="container card-container">
+      <div class="row" id="cardLayout"></div>
+        <br>
+    </Section>
+  
+    <section class="container" id="table">
+        <h2>Your Order Details:</h2>
+        <br>
+        <table class="table text-center">
+          <thead class="mx-5">
+            <tr>
+              <th scope="col">Item Name</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Price</th>
+              <th scope="col" class="text-center">Total</th>
+              <th scope="col">Action</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+          <tfoot>
+            <td colspan="2"></td>
+            <td class="fw-bold">Total</td>
+            <td class="fw-bold">$<span id="total"></span></td>
+          </tfoot>
+        </table>
+    </section>
+
+  </body>
+
+</html>
