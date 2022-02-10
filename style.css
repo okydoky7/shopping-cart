@@ -18,21 +18,29 @@
   }
   
   body {
-    background-color: #F4F3EF;
+    background-color: #F4F3EF;;
   }
-  
   
   h1 {
     color: #364C63;
     background-color: #F3B340;
     padding: 1rem;
     width: 100%;
-    overflow: auto;
     font-size: 2rem;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+
+  h2 {
+    color: #F3B340;
+    background-color: #3a5068;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
   }
   
   #cardLayout { 
     margin-top: 10rem;
+
   }  
 
   .navbar-brand {
@@ -40,3 +48,24 @@
     font-size: 1.8rem; 
   }
  
+  #search { 
+    margin-right: 1rem;
+    border-color: #364C63;
+    border-radius: 10px;
+    border-width: 2px;
+  }
+
+  #header {
+    margin-left: 10rem;
+  }
+
+  #btnCheckout {
+    background-color: #f1d7a7;
+    border-color: #4c6580;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+
+ #about {
+   font-size: 0.7rem;
+ }

@@ -14,9 +14,13 @@
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg fixed-top menu-bar">
         <img src="./img/logo.png" id="logo" width="100px" height="100px" alt="logo"/>
-        <h1 class="text-center">Dog Toys Online</h1>
-        <a class="navbar-brand main-nav" href="#table">Cart</a>
+        <h1 class="text-center" id="header">Best toys for paws and claws</h1>
+        <div class="topnav">
+          <input type="text" id="search" placeholder="Search..">
+        </div>
+        <a class="navbar-brand main-nav" href="#table">
         <img src="./img/cart.png" id="cart-symbol" width="60px">
+        </a>
       </nav>
     </div>
   </Header>
@@ -26,9 +30,10 @@
       <div class="row" id="cardLayout"></div>
         <br>
     </Section>
+    <br>
   
     <section class="container" id="table">
-        <h2>Your Order Details:</h2>
+        <h2 class="text-center">Your Order Details</h2>
         <br>
         <table class="table text-center">
           <thead class="mx-5">
@@ -48,7 +53,23 @@
           </tfoot>
         </table>
     </section>
+    <br>
+    <a class="nav-link text-center" href="#top"><img src="./img/shopping.png" width="200px"></a>
+    <br>
+    <div class="cart-checkout text-center">
+      <button id="btnCheckout" name="button2" class="primary-btn text-center">Pay with Credit Card
+      <img src="https://www.petcircle.com.au/petcircle-assets/images/payment-icons.png">
+      </button>
+    </div>
+    <br>
+    <hr>
+
+    <footer>
+      <div class="container">
+          <p class="text-center" id="about">Created by Jane O &copy; Generation Australia 2022</p>
+      </div>
+    </footer>
 
   </body>
-
+  
 </html>
